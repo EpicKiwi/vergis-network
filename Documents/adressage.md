@@ -17,7 +17,7 @@
 |RH|4|6|192.168.4.16|/29|255.255.255.248|192.168.4.17 - 192.168.4.22|192.168.4.23|
 |Secrétariat et Direction|4|6|192.168.4.24|/29|255.255.255.248|192.168.4.25 - 192.168.4.30|192.168.4.31|
 
-Sous-réseau du Service Informatique/
+Sous-réseau du Service Informatique:
 
 |Services|Taille|Taille allouée|Adresse|Masque|Masque complet|Intervalle d'adresses disponibles|Adresse de Broadcast|
 |-----------|-----------|--------------|-------|----|--------|----------------|---------|
