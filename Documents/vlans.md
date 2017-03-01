@@ -17,7 +17,7 @@ Liste des vlans du projet
 |Informatique développement	|10|
 |Informatique réseau		|4|
 |||
-|Management					|200|
+|Management					|100|
 |WiFi						|450|
 |DMZ						|10|
 |Intranet					|10|
