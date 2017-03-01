@@ -1,18 +1,18 @@
 #Adressage
 
-Major Network: 192.168.0.0/16
+Réseau principal: 192.168.0.0/16
 
-Available IP addresses in major network: 65534
+Total des adresses IPv4 disponibles: 65534
 
-Number of IP addresses needed: 894
+Nombre d'adresses IPv4 demandées: 894
 
-Available IP addresses in allocated subnets: 1152
+Adresses IPv4 disponibles dans l'espace alloué: 1152
 
-About 2% of available major network address space is used
+Environ 2% de l'espace disponible du réseau principal est utilisé.
 
-About 78% of subnetted network address space is used
+Envrion 78% de l'espace disponible de sous-réseau est utilisé.
 
-|Subnet Name|Needed Size|Allocated Size|Address|Mask|Dec Mask|Assignable Range|Broadcast|
+|Services/Sous-réseaux|Taille|Taille allouée|Adresse|Masque|Masque complet|Intervalle d'adresses disponibles|Adresse de Broadcast|
 |-----------|-----------|--------------|-------|----|--------|----------------|---------|
 |WiFi|450|510|192.168.0.0|/23|255.255.254.0|192.168.0.1 - 192.168.1.254|192.168.1.255|
 |Management|200|254|192.168.2.0|/24|255.255.255.0|192.168.2.1 - 192.168.2.254|192.168.2.255|
