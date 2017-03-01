@@ -1,10 +1,15 @@
 #Adressage
 
 Major Network: 192.168.0.0/16
+
 Available IP addresses in major network: 65534
+
 Number of IP addresses needed: 894
+
 Available IP addresses in allocated subnets: 1152
+
 About 2% of available major network address space is used
+
 About 78% of subnetted network address space is used
 
 |Subnet Name|Needed Size|Allocated Size|Address|Mask|Dec Mask|Assignable Range|Broadcast|
