@@ -4,22 +4,22 @@ Liste des vlans du projet
 
 |VLAN            |Nombre d'hotes|Numéro|
 |---------------------------|---|------|
-|Logistique					        |8  |10    |
-|Informatique support		    |6  |20    |
-|Comptabilite				        |4  |30    |
-|Secretariat				        |14 |40    |
-|R&D 						            |146|50    |
-|Direction					        |10 |60    |
-|RH							            |4  |70    |
-|Secretariat de Direction	  |10 |80    |
-|Communication				      |8  |90    |
-|Support client				      |6  |100   |
-|Informatique développement	|10 |110   |
-|Informatique réseau		    |4  |120   |
+|Logistique					        |25 |10    |
+|Informatique support		    |25  |20    |
+|Comptabilite				        |25  |30    |
+|Secretariat				        |40 |40    |
+|R&D 						            |175|50    |
+|Direction					        |25 |60    |
+|RH							            |25  |70    |
+|Secretariat de Direction	  |25 |80    |
+|Communication				      |25  |90    |
+|Support client				      |25  |100   |
+|Informatique développement	|40 |110   |
+|Informatique réseau		    |25  |120   |
 |||
-|Management					        |100|130   |
+|Management					        |200|130   |
 |WiFi						            |450|140   |
 |DMZ						            |10 |150   |
 |Intranet					          |10 |160   |
 |||
-|**Total**					        |900|      |
+|**Total**					        |1150|      |
