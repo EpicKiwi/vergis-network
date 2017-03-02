@@ -19,7 +19,7 @@ Secrétariat et Direction|80|30|192.168.5.96|/27|255.255.255.224|192.168.5.97 - 
 
 Sous-réseau du Service Informatique:
 
-|Services|Taille|Taille allouée|Adresse|Masque|Masque complet|Intervalle d'adresses disponibles|Adresse de Broadcast|
+|Services|Numéro|Taille allouée|Adresse|Masque|Masque complet|Intervalle d'adresses disponibles|Adresse de Broadcast|
 |-----------|-----------|--------------|-------|----|--------|----------------|---------|
 |Info Developpement|110|62|192.168.4.0|/26|255.255.255.192|192.168.4.1 - 192.168.4.62|192.168.4.63|
 |Info Réseau|120|30|192.168.4.64|/27|255.255.255.224|192.168.4.65 - 192.168.4.94|192.168.4.95|
