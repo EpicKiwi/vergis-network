@@ -1,0 +1,165 @@
+ip access-list extended vlanAc140 
+permit ip 192.168.0.0 0.0.1.255 192.168.0.0 0.0.1.255
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.140
+ip access-group vlanAc140 in
+exit
+
+ip access-list extended vlanAc50 
+permit ip 192.168.3.0 0.0.0.255 192.168.3.0 0.0.0.255
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.50
+ip access-group vlanAc50 in
+exit
+
+ip access-list extended vlanAc130 
+permit ip 192.168.2.0 0.0.0.255 192.168.2.0 0.0.0.255
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.130
+ip access-group vlanAc130 in
+exit
+
+ip access-list extended vlanAcInfo 
+permit ip 192.168.4.0 0.0.0.127 192.168.4.0 0.0.0.127
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.110
+ip access-group vlanAcInfo
+exit
+int g9/0.120
+ip access-group vlanAcInfo
+exit
+int g9/0.20
+ip access-group vlanAcInfo
+exit
+
+ip access-list extended vlanAc40 
+permit ip 192.168.4.128 0.0.0.63 192.168.4.128 0.0.0.63
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.40
+ip access-group vlanAc40 in
+exit
+
+ip access-list extended vlanAc60 
+permit ip 192.168.5.0 0.0.0.31 192.168.5.0 0.0.0.31
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.60
+ip access-group vlanAc60 in
+exit
+
+ip access-list extended vlanAc90 
+permit ip 192.168.4.192 0.0.0.31 192.168.4.192 0.0.0.31
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.90
+ip access-group vlanAc90 in
+exit
+
+ip access-list extended vlanAc10 
+permit ip 192.168.5.32 0.0.0.31 192.168.5.32 0.0.0.31
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.10
+ip access-group vlanAc10 in
+exit
+
+ip access-list extended vlanAc100 
+permit ip 192.168.5.128 0.0.0.31 192.168.5.128 0.0.0.31
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.100
+ip access-group vlanAc100 in
+exit
+
+ip access-list extended vlanAc30 
+permit ip 192.168.4.224 0.0.0.31 192.168.4.224 0.0.0.31
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.30
+ip access-group vlanAc30 in
+exit
+
+ip access-list extended vlanAc70 
+permit ip 192.168.5.64 0.0.0.31 192.168.5.64 0.0.0.31
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.70
+ip access-group vlanAc70 in
+exit
+
+ip access-list extended vlanAc80 
+permit ip 192.168.5.96 0.0.0.31 192.168.5.96 0.0.0.31
+permit udp any eq bootpc any eq bootps
+permit tcp any any eq 80
+permit udp any any eq 53
+permit tcp any any eq 53
+permit tcp any any range 1024 65536
+permit udp any any range 1024 65536
+exit
+int g9/0.80
+ip access-group vlanAc80 in
+exit
+
+do cop r s
+
+do wri me
